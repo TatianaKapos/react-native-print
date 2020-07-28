@@ -11,6 +11,6 @@
 #include <winrt/Windows.UI.Xaml.Controls.Primitives.h>
 #include <winrt/Windows.UI.Xaml.Input.h>
 #include <winrt/Windows.UI.Xaml.Media.h>
-#include <winrt/Windows.UI.Xaml.Printing.h>
 #include <winrt/Windows.UI.Xaml.Navigation.h>
 #include <winrt/Microsoft.ReactNative.h>
+#include <winrt/Windows.UI.Xaml.Printing.h>

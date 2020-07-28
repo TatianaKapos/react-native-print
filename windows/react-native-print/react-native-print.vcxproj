@@ -122,12 +122,9 @@
       <DependentUpon>ReactPackageProvider.idl</DependentUpon>
       <SubType>Code</SubType>
     </ClInclude>
-    <ClInclude Include="ReactPrintViewManager.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="ReactPrintView.h">
-      <DependentUpon>ReactPrintView.idl</DependentUpon>
-      <SubType>Code</SubType>
-    </ClInclude>
+    <ClInclude Include="ReactPrinter.h" />
+    <ClInclude Include="RNCPrint.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -138,11 +135,7 @@
       <DependentUpon>ReactPackageProvider.idl</DependentUpon>
       <SubType>Code</SubType>
     </ClCompile>
-    <ClCompile Include="ReactPrintView.cpp">
-      <DependentUpon>ReactPrintView.idl</DependentUpon>
-      <SubType>Code</SubType>
-    </ClCompile>
-    <ClCompile Include="ReactPrintViewManager.cpp" />
+    <ClCompile Include="ReactPrinter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -161,9 +154,6 @@
   </ItemGroup>
   <ItemGroup>
     <Midl Include="ReactPackageProvider.idl">
-      <SubType>Designer</SubType>
-    </Midl>
-    <Midl Include="ReactPrintView.idl">
       <SubType>Designer</SubType>
     </Midl>
   </ItemGroup>

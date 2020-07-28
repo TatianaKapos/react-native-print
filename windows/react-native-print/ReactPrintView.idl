@@ -1,8 +1,0 @@
-namespace react_native_print
-{
-    [default_interface]
-    runtimeclass ReactPrintView{
-        ReactPrintView(Microsoft.ReactNative.IReactContext context);
-        void UpdateProperties(Microsoft.ReactNative.IJSValueReader reader);
-    };
-} // namespace react_native_print
