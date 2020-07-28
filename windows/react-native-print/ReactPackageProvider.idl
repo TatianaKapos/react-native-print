@@ -1,0 +1,7 @@
+namespace react_native_print{
+	[webhosthidden]
+	[default_interface]
+	runtimeclass ReactPackageProvider : Microsoft.ReactNative.IReactPackageProvider {
+		ReactPackageProvider();
+	};
+} // namespace react_native_print
